@@ -1,9 +1,34 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'Android';
-    src: url(fonts/idroid.otf) format(opentype);
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Oxanium:wght@300;400;700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor0: #84E1AD;
+    --cor1: #98d2b1a2;
+    --cor2: #245e3d;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
 
 header{
     color: white;
@@ -11,10 +36,12 @@ header{
     margin: auto;
 }
 
-body {
-    font-family: 'Bebas Neue', sans-serif;
-    background-color: #84E1AD;
+header > h1{
+    color: var(--cor1);
+    color: white;
+    font-family: var(--fonte-destaque);
 }
+
 
 main {
     background-color: white;
@@ -25,6 +52,7 @@ main {
     margin: auto;
 }
 
+
 img {
     max-width: 100%;
     height: auto; 
@@ -34,11 +62,11 @@ img {
 
 .fonte {
     font-family: 'Android', Arial, Helvetica, sans-serif;
-    color: #245e3d;
+    color: var(--cor2);
 }
 
-h2 {
-    background-color: #98d2b1a2;
+main h2 {
+    background-color: var(--cor1);
 }
 
 p{
@@ -47,7 +75,7 @@ p{
 }
 
 #youtube{
-    background-color: #245e3d;
+    background-color: var(--cor2);
     padding: 40px;
     margin: 0 auto;
 }
