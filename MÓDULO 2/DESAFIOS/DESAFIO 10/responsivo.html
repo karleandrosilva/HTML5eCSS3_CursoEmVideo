@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <main>
         <h1>Testando Responsividade</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo iusto quod saepe distinctio reiciendis eveniet vitae earum. Mollitia est atque eaque nulla sed repellat consequatur excepturi pariatur veniam! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit temporibus eveniet architecto tenetur exercitationem assumenda veniam dolor culpa fugit obcaecati alias eos odit distinctio accusantium, fugiat voluptate rerum unde!</p>
-        <img src="imagens/irina-blok.jpg" alt="irina blok">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo iusto quod saepe distinctio reiciendis eveniet vitae earum. Mollitia est atque eaque nulla sed repellat consequatur excepturi pariatur veniam! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit temporibus eveniet architecto tenetur exercitationem assumenda veniam dolor culpa fugit obcaecati alias eos odit distinctio accusantium, fugiat voluptate rerum unde!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina">
+        </picture>
     </main>
 </body>
 </html>
