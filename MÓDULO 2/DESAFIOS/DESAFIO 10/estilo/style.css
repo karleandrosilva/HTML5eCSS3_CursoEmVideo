@@ -22,13 +22,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-
 
 header{
     color: white;
@@ -42,16 +42,33 @@ header > h1{
     font-family: var(--fonte-destaque);
 }
 
-
 main {
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 10px 50px black;
-    width: 650px;
-    padding: 25px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    /* border-radius: 20px; */
+    box-shadow: 0px 10px 50px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* width: 650px; */
 }
 
+main h2 {
+    background-color: var(--cor1);
+}
+
+main img {
+    width: 100%;
+}
+
+.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
 
 img {
     max-width: 100%;
@@ -65,11 +82,8 @@ img {
     color: var(--cor2);
 }
 
-main h2 {
-    background-color: var(--cor1);
-}
 
-p{
+p {
     text-align: justify;
     text-indent: 30px;
 }
