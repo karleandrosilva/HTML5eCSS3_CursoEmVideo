@@ -12,34 +12,67 @@
     --cor0: #84E1AD;
     --cor1: #98d2b1a2;
     --cor2: #245e3d;
+    --cor3: #227646;
+    --cor4: #e9f0ec;
+    --cor5: #2d764c;
     
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
-
 }
 
 * {
     margin: 0px;
     padding: 0px;
-    
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     font-family: var(--fonte-padrao);
 }
 
 header{
-    color: white;
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
+    min-height: 150px;
     font-size: 20px;
-    margin: auto;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1{
     color: var(--cor1);
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+header p {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2mem;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
 }
 
 main {
