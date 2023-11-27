@@ -32,6 +32,7 @@ body {
 }
 
 header{
+    color: white;
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
     min-height: 150px;
     font-size: 20px;
@@ -62,6 +63,7 @@ nav {
 }
 
 nav a {
+    font-size: 12.6px;
     color: white;
     padding: 10px;
     border-radius: 5px;
