@@ -92,7 +92,8 @@ main {
 }
 
 main h2 {
-    background-color: var(--cor1);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
 }
 
 main p {
