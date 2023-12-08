@@ -95,6 +95,15 @@ main h2 {
     background-color: var(--cor1);
 }
 
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em; 
+
+}
+
 main img {
     width: 100%;
 }
@@ -117,11 +126,6 @@ img {
     color: var(--cor2);
 }
 
-
-p {
-    text-align: justify;
-    text-indent: 30px;
-}
 
 #youtube{
     background-color: var(--cor2);
