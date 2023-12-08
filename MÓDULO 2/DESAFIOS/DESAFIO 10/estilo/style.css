@@ -101,7 +101,6 @@ main p {
     text-indent: 30px;
     font-size: 1.1em;
     line-height: 2em; 
-
 }
 
 main strong {
@@ -111,6 +110,19 @@ main strong {
 
 main img {
     width: 100%;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
 }
 
 .pequena {
