@@ -104,6 +104,11 @@ main p {
 
 }
 
+main strong {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
 main img {
     width: 100%;
 }
