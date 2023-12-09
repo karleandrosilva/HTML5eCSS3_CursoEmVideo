@@ -31,6 +31,10 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
 header{
     color: white;
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
