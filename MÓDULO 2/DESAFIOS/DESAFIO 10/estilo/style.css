@@ -149,9 +149,20 @@ img {
 }
 
 
-#youtube{
-    padding: 40px;
-    margin: 0 auto;
+div.youtube { 
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+div.youtube > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
