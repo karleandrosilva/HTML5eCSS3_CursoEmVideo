@@ -8,12 +8,19 @@
         /* */
         body {
             height: 100vh;
-            background-color: black; /* fundo preto */
-            background-image: url('../imagens/wallpaper002.jpg');
-            background-position: center center; /* imagem no centro */
-            background-repeat: no-repeat; /* não repetir a imagem */
-            background-size: cover; /* sempre ficar proporcional na tela*/
-            background-attachment: fixed;
+            /*background-color: black; (fundo preto) */
+            /* background-image: url('../imagens/wallpaper002.jpg'); */
+            /* background-position: center center; imagem no centro */
+            /* background-repeat: no-repeat; (não repetir a imagem) */
+            /* background-size: cover; (sempre ficar proporcional na tela)*/
+            /* background-attachment: fixed; */
+            
+            /* shorthand - background (otimizar)
+                color -> image -> position -> repeat -> size -> attachment
+            */
+
+            background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
