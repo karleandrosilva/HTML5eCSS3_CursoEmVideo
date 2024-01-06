@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        /* */
+        /* PARA DEIXAR FIXADO*/
+        #container {
+            background-image: url(../imagens/target001.png);
+            background-size: 100% 100%; /* ficar no centro*/
+
+            position: relative; /* ele ja é de padrao */
+            height: 96vh; /* vh = viwport/tela */
+            padding: 10px;
+            background-color: crimson;
+        }
+
+        #conteudo {
+            background-image: url(../imagens/target001.png);
+            background-size: 100% 100%; /* ficar no centro*/
+
+            position: absolute; /* 1º ferramenta para centralizar dentro de um container */
+            height: 200px;
+            width: 400px;
+            background-color: blue;
+
+            left: 50%; /* 2º passo */
+            top: 50%; /* 3º passo */
+
+            transform: translate(-50%, -50%) /* 4º passo */
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
