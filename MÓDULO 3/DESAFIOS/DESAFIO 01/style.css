@@ -39,3 +39,58 @@ header > p {
     font-family: var(--fonte1);
     
 }
+
+.normal {
+    background-color: white;
+    font-family: var(--fonte3);
+    font-size: 85px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.normal > p {
+    margin-left: 50px;
+}
+
+.imagem {
+    font-family: var(--fonte3);
+    font-size: 85px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.imagem > p {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    width: 1050px;
+    margin-left: 50px;
+}
+
+#imagem01 {
+    height: 100vh;
+    background-image: url(img/background001.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#imagem02 {
+    height: 100vh;
+    background-image: url(img/background002.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    height: 60px;
+}
+
+footer > p {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    
+    font-size: 30px;
+}
