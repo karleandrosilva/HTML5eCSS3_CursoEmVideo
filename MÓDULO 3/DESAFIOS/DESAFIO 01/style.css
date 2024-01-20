@@ -10,37 +10,52 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-
-body {
-    height: 100vh;
+* {
     margin: 0;
     padding: 0;
 }
 
+
+body {
+    min-height: 100vh;
+    /* height: 100vh; */
+}
+
 header {
+    background-color: black;
+    color: white;
+    text-align: center;
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background-color: black;
-    text-align: center;
-    color: white;
 }
 
 header > h1 {
     margin: 0px;
-    padding-top: 80px;
-    font-size: 100px;
+    padding-top: 50px;
+    font-size: 10vh;
+    font-variant: small-caps;
     font-family: var(--fonte2);
 }
 
 header > p {
-    margin: 1px;
+    /* margin: 1px; */
+    padding-bottom: 50px;
     font-size: 25px;
     font-family: var(--fonte1);
-    
 }
 
-.normal {
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section.normal {
     background-color: white;
     font-family: var(--fonte3);
     font-size: 85px;
@@ -85,12 +100,18 @@ header > p {
 footer {
     background-color: black;
     height: 60px;
+    text-align: center;
+    padding: 10px;
 }
 
-footer > p {
+footer p {
     margin: 0;
     padding: 15px;
-    text-align: center;
-    
+   
     font-size: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
