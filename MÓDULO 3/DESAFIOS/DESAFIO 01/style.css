@@ -15,10 +15,8 @@
     padding: 0;
 }
 
-
-body {
+html, body {
     min-height: 100vh;
-    /* height: 100vh; */
 }
 
 header {
@@ -48,11 +46,17 @@ header > p {
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header a:hover, footer a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
 section.normal {
@@ -67,17 +71,17 @@ section.normal {
     margin-left: 50px;
 }
 
-.imagem {
+section.imagem {
     font-family: var(--fonte3);
     font-size: 85px;
     padding-top: 50px;
     padding-bottom: 200px;
 }
 
-.imagem > p {
+section.imagem > p {
     color: white;
     background-color: rgba(0,0,0,0.3);
-    width: 1050px;
+    width: 400px;
     margin-left: 50px;
 }
 
@@ -107,7 +111,6 @@ footer {
 footer p {
     margin: 0;
     padding: 15px;
-   
     font-size: 30px;
 }
 
