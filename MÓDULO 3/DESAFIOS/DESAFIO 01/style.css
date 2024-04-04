@@ -17,6 +17,7 @@
 
 html, body {
     min-height: 100vh;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -31,7 +32,7 @@ header {
 header > h1 {
     margin: 0px;
     padding-top: 50px;
-    font-size: 10vh;
+    font-size: 10vw;
     font-variant: small-caps;
     font-family: var(--fonte2);
 }
@@ -57,6 +58,8 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -81,7 +84,8 @@ section.imagem {
 section.imagem > p {
     color: white;
     background-color: rgba(0,0,0,0.3);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     margin-left: 50px;
 }
 
