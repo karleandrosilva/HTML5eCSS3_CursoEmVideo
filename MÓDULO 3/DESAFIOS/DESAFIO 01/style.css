@@ -13,6 +13,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -24,22 +25,25 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+
     height: 300px;
     margin: 0px;
     padding: 0px;
 }
 
 header > h1 {
-    margin: 0px;
     padding-top: 50px;
-    font-size: 10vw;
     font-variant: small-caps;
     font-family: var(--fonte2);
+
+    margin: 0px;
+    font-size: 10vw;
 }
 
 header > p {
     /* margin: 1px; */
     padding-bottom: 50px;
+
     font-size: 25px;
     font-family: var(--fonte1);
 }
@@ -58,15 +62,15 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
-    padding-left: 30px;
 }
 
 section.normal {
     background-color: white;
     font-family: var(--fonte3);
-    font-size: 85px;
+    
     padding-top: 50px;
     padding-bottom: 200px;
 }
@@ -76,18 +80,20 @@ section.normal {
 }
 
 section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+
     font-family: var(--fonte3);
-    font-size: 85px;
     padding-top: 50px;
     padding-bottom: 200px;
+    
 }
 
 section.imagem > p {
-    /* width: 400px; */
-    color: white;
-    background-color: rgba(0,0,0,0.3);
     display: inline-block;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
+    
     margin-left: 50px;
 }
 
@@ -109,9 +115,10 @@ section.imagem > p {
 
 footer {
     background-color: black;
-    height: 60px;
     text-align: center;
     padding: 10px;
+
+    height: 60px;
 }
 
 footer p {
