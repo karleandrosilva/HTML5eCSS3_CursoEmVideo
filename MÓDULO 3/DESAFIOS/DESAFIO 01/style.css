@@ -11,8 +11,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 html, body {
@@ -60,6 +60,7 @@ section {
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    padding-left: 30px;
 }
 
 section.normal {
@@ -82,6 +83,7 @@ section.imagem {
 }
 
 section.imagem > p {
+    /* width: 400px; */
     color: white;
     background-color: rgba(0,0,0,0.3);
     display: inline-block;
