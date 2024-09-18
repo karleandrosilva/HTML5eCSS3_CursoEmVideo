@@ -10,21 +10,20 @@
         }
 
         table {
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
-        }
-
-        tr.linha {
-            background-color: burlywood;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /* alinhamento horizontal */
+            vertical-align: middle; /* alinhamento vertical */
         }
 
-        td.dado {
-            background-color: aqua;
+        .numero {
+            text-align: right; /* alinhados a direita*/
         }
     </style>
 </head>
@@ -40,22 +39,22 @@
     -->
     
     <table>
-        <tr class="linha"> <!-- Primeira linha  -->
-            <td>A1</td> <!-- Primeiro dado-->
+        <tr> <!-- Primeira linha  -->
+            <td class="numero">A1</td> <!-- Primeiro dado-->
             <td>B1</td> <!-- Segundo dado-->
             <td>C1</td> <!-- Terceiro dado-->
         </tr>
 
         <tr>
             <td>A2</td>
-            <td>B2</td>
+            <td class="numero">B2</td>
             <td>C2</td>
         </tr>
 
         <tr></tr>
             <td class="dado">A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
 
         <tr></tr>
